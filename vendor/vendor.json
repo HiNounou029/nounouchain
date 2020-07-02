@@ -1,0 +1,60 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "lutCa+IVM60R1OYBm9RtDAW50Ys=",
+			"path": "github.com/docker/docker/pkg/reexec",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "2z2tykPbLAgH0OMGlDS03BwmhLA=",
+			"path": "golang.org/x/tools/cmd/guru/serial",
+			"revision": "33176b2029f9538e722efa4a005f7aa00cf60010",
+			"revisionTime": "2018-07-31T19:06:28Z"
+		},
+		{
+			"checksumSHA1": "/bQnex6L/nyDuZCIIRbM6Is/IRY=",
+			"path": "golang.org/x/tools/go/ast/astutil",
+			"revision": "33176b2029f9538e722efa4a005f7aa00cf60010",
+			"revisionTime": "2018-07-31T19:06:28Z"
+		},
+		{
+			"checksumSHA1": "LsKjrrQaJ9a5wgKTUQemE7e7LQg=",
+			"path": "golang.org/x/tools/go/buildutil",
+			"revision": "33176b2029f9538e722efa4a005f7aa00cf60010",
+			"revisionTime": "2018-07-31T19:06:28Z"
+		},
+		{
+			"checksumSHA1": "asCbWoWEMb8fyhJ+YZU+ovzZHFU=",
+			"path": "golang.org/x/tools/go/gcexportdata",
+			"revision": "33176b2029f9538e722efa4a005f7aa00cf60010",
+			"revisionTime": "2018-07-31T19:06:28Z"
+		},
+		{
+			"checksumSHA1": "3NUFM07kb5XjmzwBMOP1voz6sSg=",
+			"path": "golang.org/x/tools/go/internal/gcimporter",
+			"revision": "33176b2029f9538e722efa4a005f7aa00cf60010",
+			"revisionTime": "2018-07-31T19:06:28Z"
+		},
+		{
+			"checksumSHA1": "Gynp89rRZDwuSCSYU5iMJOjO3s8=",
+			"path": "golang.org/x/tools/go/loader",
+			"revision": "33176b2029f9538e722efa4a005f7aa00cf60010",
+			"revisionTime": "2018-07-31T19:06:28Z"
+		},
+		{
+			"checksumSHA1": "dZ1tWrDD6P5ucw2rbj8yEA/XfD8=",
+			"path": "golang.org/x/tools/go/packages",
+			"revision": "33176b2029f9538e722efa4a005f7aa00cf60010",
+			"revisionTime": "2018-07-31T19:06:28Z"
+		},
+		{
+			"checksumSHA1": "1ltnUSDphgrGTzD3QPMSCnzFVg0=",
+			"path": "golang.org/x/tools/go/vcs",
+			"revision": "33176b2029f9538e722efa4a005f7aa00cf60010",
+			"revisionTime": "2018-07-31T19:06:28Z"
+		}
+	],
+	"rootPath": "gitee.com/macropolo/polochain"
+}

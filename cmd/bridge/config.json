@@ -1,0 +1,19 @@
+{
+  "ABIFilePath": "/Volumes/sys/cefa/src/github.com/HiNounou029/nounouchain/cmd/bridge/contract/bridge.json",
+  "ServerKeyPath": "/Users/majunchang/sys/cefa/bin/account1.key",
+  "ClientKeyPath": "/Users/majunchang/sys/cefa/bin/account1.key",
+  "Chains": [
+    {
+      "Name": "chain1",
+      "NetworkID": 1000,
+      "Endpoint": "http://127.0.0.1:8669",
+      "ContractAddr": "0x36299d7c4e3c2d329b7cc6ec6e3ad9eab8d980cd"
+    },
+    {
+      "Name": "chain2",
+      "NetworkID": 2000,
+      "Endpoint": "http://cefa_1:8669",
+      "ContractAddr": "0xc5ea599b271e679ab2b8163663c30ad28dd4229f"
+    }
+  ]
+}

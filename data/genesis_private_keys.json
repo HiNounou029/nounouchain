@@ -1,0 +1,46 @@
+{
+  "Authorities": [
+    {
+      "Key": "54cd831cad1bdbfab48229fc8bdb6a111c581b56cc534ea7677a54addc158d32",
+      "Id": "node1"
+    },
+    {
+      "Key": "fb9e87b7651502e3d16928da215c17e84ae2fbe58fc62ba813649a722ee1b2cf",
+      "Id": "node2"
+    },
+    {
+      "Key": "cdd214ae59888259a147cc9b37b98ae0e27f501cc3aca0bce911cc26ea1375b3",
+      "Id": "node3"
+    },
+    {
+      "Key": "f1f7368dec75b8ecf385564077e5cd91b276422db828c5ec65062f0cbc75e95f",
+      "Id": "node4"
+    },
+    {
+      "Key": "e02c390164f19c555265908044e14080bd57d5b2ff7e6deb98ba226e89788838",
+      "Id": "node5"
+    },
+    {
+      "Key": "091e989f7c985d7d4b217f353d73e0fe78dd7a85f84754937db847c692cdc6c7",
+      "Id": "node6"
+    },
+    {
+      "Key": "f69aee8b924eda2e6fab0c608f2aa180752ebcacd376b7faabcdbe857c3c4bad",
+      "Id": "node7"
+    }
+  ],
+  "Approvers": [
+    {
+      "Key": "cb47d394e6bd865da592573fcd9eb9b7ef96b323dca0ea09a3cd02edc97e535e",
+      "Id": "approver_1"
+    },
+    {
+      "Key": "b11c5752af4c9ab07e7379e693e47ffba97e1f4f686128cea601b2ea64646732",
+      "Id": "approver_2"
+    },
+    {
+      "Key": "3bafcc03c1578a52ed2457abc1410ab8442a2771663e866074a09f2c976c5957",
+      "Id": "approver_3"
+    }
+  ]
+}

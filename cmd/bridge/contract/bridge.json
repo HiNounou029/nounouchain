@@ -1,0 +1,292 @@
+[
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "destChain",
+        "type": "uint256"
+      },
+      {
+        "name": "id",
+        "type": "uint256"
+      },
+      {
+        "name": "success",
+        "type": "bool"
+      },
+      {
+        "name": "resMsg",
+        "type": "string"
+      }
+    ],
+    "name": "ack",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "srcChain",
+        "type": "uint256"
+      },
+      {
+        "name": "id",
+        "type": "uint256"
+      },
+      {
+        "name": "srcAddr",
+        "type": "address"
+      },
+      {
+        "name": "destAddr",
+        "type": "address"
+      },
+      {
+        "name": "reqMsg",
+        "type": "string"
+      }
+    ],
+    "name": "forward",
+    "outputs": [],
+    "payable": true,
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "srcAddr",
+        "type": "address"
+      },
+      {
+        "name": "destChain",
+        "type": "uint256"
+      },
+      {
+        "name": "destAddr",
+        "type": "address"
+      },
+      {
+        "name": "reqMsg",
+        "type": "string"
+      }
+    ],
+    "name": "send",
+    "outputs": [],
+    "payable": true,
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "withdraw",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "_owner",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "destChain",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "id",
+        "type": "uint256"
+      }
+    ],
+    "name": "Request",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "srcChain",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "id",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "success",
+        "type": "bool"
+      },
+      {
+        "indexed": false,
+        "name": "resMsg",
+        "type": "string"
+      }
+    ],
+    "name": "Response",
+    "type": "event"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "lastAckedMsgIdByDestChain",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "lastMsgIdBySrcChain",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "lastSentMsgIdByDestChain",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "recvMsgsBySrcChain",
+    "outputs": [
+      {
+        "name": "srcAddr",
+        "type": "address"
+      },
+      {
+        "name": "destAddr",
+        "type": "address"
+      },
+      {
+        "name": "value",
+        "type": "uint256"
+      },
+      {
+        "name": "success",
+        "type": "bool"
+      },
+      {
+        "name": "resMsg",
+        "type": "string"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "sendMsgsByDestChain",
+    "outputs": [
+      {
+        "name": "srcAddr",
+        "type": "address"
+      },
+      {
+        "name": "destAddr",
+        "type": "address"
+      },
+      {
+        "name": "value",
+        "type": "uint256"
+      },
+      {
+        "name": "reqMsg",
+        "type": "string"
+      },
+      {
+        "name": "status",
+        "type": "int8"
+      },
+      {
+        "name": "resMsg",
+        "type": "string"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

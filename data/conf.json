@@ -1,0 +1,6 @@
+{
+    "BlockInterval": 5,
+    "TxPerSecondLimit": 4000,
+    "TxSizeLimit": 65536, 
+    "MaxBlockProposers": 7
+}

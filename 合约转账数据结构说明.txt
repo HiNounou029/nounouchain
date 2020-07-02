@@ -1,0 +1,8 @@
+1. Transaction Signer()  方法：返回的是合约交易的签名者
+2. clauseBody To 成员变量：是合约地址
+3. clauseBody Data 是调用合约的参数：
+    Data[0] 如果等于0x4b40e901，即：transfer的sha3 hash的前四个字节的16进制编码，代表词合约调用是合约转账
+    Data[1] 就是合约转账的接收者地址。
+    日志Transfer数据结构的TxOrigin 地址是：交易的签名者signer
+    日志Transfer数据结构的Sender地址：合约地址
+    日志Transfer数据结构的Recipient地址：合约转账的接收者地址
